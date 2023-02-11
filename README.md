@@ -122,9 +122,9 @@ Binary
 
 Control flow:
 
-`jump location or action name` - jump to location or action  
-`call location or action name` - call location or action as function  
-Jump operator will just change current code position, call operator also add current address to call-stack.  
+`jump <location or action name>` - jump to location or action  
+`call <location or action name>` - call location or action as function  
+`jump` operator simply changes the current code position; `call` operator also adds the current address to call-stack  
 Game starts from label `start`
 
 Conditions:
