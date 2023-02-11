@@ -145,9 +145,9 @@ Custom commands:
 
 Other commands:
 
-`…` - game will be wait for players click  
-`.` - stop executing script  
-If call stack is empty, script will just stop executing, otherwise pop address from stack and go to this address.  
+`…` - game will wait for player's click  
+`.` - stop script's execution
+If call stack is empty, script just stops execution, otherwise pops an address from stack and goes to this address.  
 `[]` - clear screen
 
 ### Build / Run
