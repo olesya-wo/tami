@@ -16,11 +16,11 @@ All script files must be in `script` folder and have `.tami` extension. And `set
 
 Sentences:
 
-Any string that not a part of other syntax constuctions is a sentence  
+Any string that is not a part of other syntax constuctions is a sentence  
 It just appears on the screen one by one instantly  
-Can contains links to actions - `[some action]` or `[some action (display name)]`  
-Can contains also interpolated variables - `[:var_name:]`  
-All text is passing to screen as HTML, so you can use any html tags and styles
+Can contain links to actions - `[some action]` or `[some action (display name)]`  
+Can also contain interpolated variables - `[:var_name:]`  
+All text is passed to screen as HTML, so you can use any html tags and styles
 
 Dialogs:
 
