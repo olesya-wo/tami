@@ -27,8 +27,8 @@ Dialogs:
 First, you need to define character with display name - `character mom = My mom`  
 Then you can use `mom` as person in dialogs  
 `person: Sentense` or `person: (additional info) Sentense`  
-Each message will be displayed separately and blocks side-panel until player clicks  
-Can contains also interpolated variables - `[:var_name:]`
+Each message will be displayed separately, and block the side-panel until player clicks  
+Can also contain interpolated variables - `[:var_name:]`
 
 Menus:
 
