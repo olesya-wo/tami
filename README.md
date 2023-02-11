@@ -49,7 +49,7 @@ Actions:
 	.
 ```
 
-In any block you can get current active action from variable `action`:  
+In any block you can get the currently active action from variable `action`:  
 `0` - look  
 `1` - interact  
 `2` - apply something from the inventory  
