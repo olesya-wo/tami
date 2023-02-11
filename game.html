@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tami demo</title>
+    <script src="./js/main.js" type="module"></script>
+    <link rel="stylesheet" href="css/game.css" type="text/css"/>
+    <link rel="stylesheet" href="css/an.css">
+    <script src="js/an.js"></script>
+</head>
+<body>
+<div class="standalone-game">
+
+    <div id="game-main-menu-btn">&#12296;</div>
+    <div id="game-main-menu">
+        <h1 class="game-main-menu-title">Tami demo</h1>
+        <div id="game-new-btn" class="menu-option">New game</div>
+        <div id="game-continue-btn" class="menu-option">Continue</div>
+        <div id="game-save-btn" class="menu-option">Save</div>
+        <div id="game-load-btn" class="menu-option">Load</div>
+        <div id="game-exit-btn" class="menu-option">Exit</div>
+    </div>
+    <div id="game-progress-menu">
+        <div id="game-back-btn" class="menu-option">Back</div>
+        <div id="game-save-slots"></div>
+        <div id="game-slot-save-btn" class="menu-option">Save</div>
+        <div id="game-slot-load-btn" class="menu-option">Load</div>
+        <div id="game-slot-delete-btn" class="menu-option">Delete</div>
+    </div>
+    <div id="game-loading-menu">
+        <img src="data:image/png;base64,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">
+        Loading...
+    </div>
+
+    <div id="game-menu"></div>
+    <div class="game-container">
+        <div id="game-location-title"></div>
+        <div id="game-text-view"></div>
+    </div>
+
+    <div id="game-side-panel">
+        <div id="game-side-panel-blocker" style="display: none"></div>
+        <div class="game-action" id="game-action-panel">
+            <div class="game-panel-header">Action:</div>
+            <button id="game-action-look-btn" class="game-action-active">Look</button>
+            <button id="game-action-interact-btn">Interact</button>
+            <button id="game-action-apply-btn">Apply</button>
+            <select id="game-action-list" style="display: none"></select>
+        </div>
+        <div class="game-panel-header">
+            <div class="game-header-button" id="game-action-combine" title="Combine two items">&plus;</div>
+            Inventory:
+        </div>
+        <div id="game-inventory-list"></div>
+    </div>
+
+</div>
+</body>
+</html>

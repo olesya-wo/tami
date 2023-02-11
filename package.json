@@ -1,0 +1,7 @@
+{
+  "name": "Tami IDE",
+  "main": "index.html",
+  "window": {
+    "icon": "images/tami.png"
+  }
+}
