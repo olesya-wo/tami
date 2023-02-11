@@ -71,10 +71,10 @@ All inventory items are displayed in side panel and clicking on the item is equa
 
 Variables:
 
-`var_name = expression` -  set the variable value by some expression  
-Values can be only integers.  
+`var_name = expression` -  set the variable value to some expression  
+Values can be only integers 
 Value of uninitialized variable is `0`  
-Instead of variables in expressions you can use `{item}` - it’ll return `1` if this item stored in your inventory, or `2` if this item is also selected for interaction
+Instead of variables in expressions you can use `{item}` - it’ll return `1` if the item is stored in your inventory, or `2` if the item is also selected for interaction
 
 Operators:
 
