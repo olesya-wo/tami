@@ -59,8 +59,8 @@ Any action must end up with `.` - analog of `return` in programming languages, b
 Locations:
 
 `[location name]` or `[location name (display name)]`  
-It’s like any actions, but also clear screen and set title in GUI  
-In sum, actions and locations are just labes in code.
+It’s like an action, but also clears screen and sets title in GUI  
+In fact, actions and locations are just labes in code
 
 Items:
 
