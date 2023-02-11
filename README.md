@@ -64,10 +64,10 @@ In fact, actions and locations are just labes in code
 
 Items:
 
-You can place some item in the inventory by `+{name}` or `+{name (display name)}`  
-Or you can remove it from inventory by `-{name}`  
-You can also clear the entire inventory by `-{}`  
-All inventory items are displayed in side panel and click on the item is equal click on action with the same name
+You can place some item in the inventory with `+{name}` or `+{name (display name)}`  
+Or you can remove it from inventory with `-{name}`  
+You can also clear the entire inventory with `-{}`  
+All inventory items are displayed in side panel and clicking on the item is equal to clicking on an action with the same name
 
 Variables:
 
