@@ -12,7 +12,7 @@ All script files must be in `script` folder and have `.tami` extension. And `set
 
 ---
 
-### Syntax:
+## Syntax
 
 Sentences:
 
