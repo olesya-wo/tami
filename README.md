@@ -14,7 +14,7 @@ All script files must be in `script` folder and have `.tami` extension. And `set
 
 ## Syntax
 
-Sentences:
+### Sentences:
 
 Any string that is not a part of other syntax constuctions is a sentence  
 It just appears on the screen one by one instantly  
@@ -22,7 +22,7 @@ Can contain links to actions - `[some action]` or `[some action (display name)]`
 Can also contain interpolated variables - `[:var_name:]`  
 All text is passed to screen as HTML, so you can use any html tags and styles
 
-Dialogs:
+### Dialogs:
 
 First, you need to define character with display name - `character mom = My mom`  
 Then you can use `mom` as person in dialogs  
@@ -30,7 +30,7 @@ Then you can use `mom` as person in dialogs
 Each message will be displayed separately, and block the side-panel until player clicks  
 Can also contain interpolated variables - `[:var_name:]`
 
-Menus:
+### Menus:
 
 ```
 + First choice:
@@ -41,7 +41,7 @@ Menus:
 
 Menu blocks all space while on screen
 
-Actions:
+### Actions:
 
 ```
 > action name:
@@ -57,27 +57,27 @@ In any block you can get the currently active action from variable `action`:
 Also variables `LOOK`, `INTERACT` and `USE` set to `0` or `1` accordingly to variable `action`  
 Any action must end up with `.` - analog of `return` in programming languages, because actions are called by `call`, not `jump` (see detailed information below)
 
-Locations:
+### Locations:
 
 `[location name]` or `[location name (display name)]`  
 It’s like an action, but also clears screen and sets title in GUI  
 In fact, actions and locations are just labes in code
 
-Items:
+### Items:
 
 You can place some item in the inventory with `+{name}` or `+{name (display name)}`  
 Or you can remove it from inventory with `-{name}`  
 You can also clear the entire inventory with `-{}`  
 All inventory items are displayed in side panel and clicking on the item is equal to clicking on an action with the same name
 
-Variables:
+### Variables:
 
 `var_name = expression` -  set the variable value to some expression  
 Values can be only integers 
 Value of uninitialized variable is `0`  
 Instead of variables in expressions you can use `{item}` - it’ll return `1` if the item is stored in your inventory, or `2` if the item is also selected for interaction
 
-Operators:
+### Operators:
 
 Unary
 
@@ -121,14 +121,14 @@ Binary
 | --- | --- |
 | >>= | max |
 
-Control flow:
+### Control flow:
 
 `jump <location or action name>` - jump to location or action  
 `call <location or action name>` - call location or action as function  
 `jump` operator simply changes the current code position; `call` operator also adds the current address to call-stack  
 Game starts from label `start`
 
-Conditions:
+### Conditions:
 
 ```
 if some_statement:
@@ -140,11 +140,11 @@ if some_statement:
 	conditin without else
 ```
 
-Custom commands:
+### Custom commands:
 
 `// command` - any string after `//` will be passed to `on_command` callback
 
-Other commands:
+### Other commands:
 
 `…` - game will wait for player's click  
 `.` - stop script's execution
