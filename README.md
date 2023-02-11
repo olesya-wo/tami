@@ -152,7 +152,7 @@ If call stack is empty, script just stops execution, otherwise pops an address f
 
 ### Build / Run
 
-You can use [nw.js](https://github.com/nwjs/nw.js) for IDE as well as game itself. But also any other similar like Electron, etc.  
+You can use [nw.js](https://github.com/nwjs/nw.js) for running the IDE as well as for the game itself. You can also use any other similar thing like Electron etc.  
 Game also can be executed as a regular web-page, in this case saves will be stored in LocalStorage.
 
 ### TODO
