@@ -54,7 +54,7 @@ In any block you can get the currently active action from variable `action`:
 `1` - interact  
 `2` - apply something from the inventory  
 Also variables `LOOK`, `INTERACT` and `USE` set to `0` or `1` accordingly to variable `action`  
-Any action must ends up with `.` - analog of `return` in programming languages, because action called by `call`, not `jump` (detailed information below)
+Any action must end up with `.` - analog of `return` in programming languages, because actions are called by `call`, not `jump` (see detailed information below)
 
 Locations:
 
