@@ -8,7 +8,7 @@ At the left side there is a list of all files, locations/actions, variables, inv
 At the center there is a big text area with syntax highlighting for the currently selected script file.
 At the right side there are setup script (in this field allowed only `+{item}`, `variable = number` or `// command`), callstack widget, log and game realtime preview.
 
-All script files must be in `script` folder and have `.tami` extension. And `setup.tami` for setup script. If `debug_mode` is on, near each `script.tami` will be generated `script-debug.txt` just for debug.
+All script files must be in `script` folder and have `.tami` extension. And `setup.tami` for setup script. If `debug_mode` is on, `script-debug.txt` will be generated near each `script.tami` just for debug.
 
 ---
 
