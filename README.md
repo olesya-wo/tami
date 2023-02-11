@@ -2,7 +2,7 @@
 
 Engine + IDE for text-quest games. Something similar to RenPy or rather Ink.
 
-### IDE
+## IDE
 
 At the left side there is a list of all files, locations/actions, variables, inventory items and persons for dialogs.  
 At the center there is a big text area with syntax highlighting for the currently selected script file.
